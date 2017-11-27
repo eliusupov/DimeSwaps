@@ -34,15 +34,15 @@ module.exports = merge(common, {
 							},
 						},
 						{
-							loader: 'sass-loader',
-						},
-						{
 							loader: 'postcss-loader',
 							options: {
 								config: {
 									path: './config/postcss.config.js',
 								},
 							},
+						},
+						{
+							loader: 'sass-loader',
 						},
 					],
 				}),
